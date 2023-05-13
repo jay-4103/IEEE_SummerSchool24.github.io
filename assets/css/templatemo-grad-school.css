@@ -806,6 +806,11 @@ section.courses {
 section.courses .item img {
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* width: 275px;
+    height: 225px; */
+    
 }
 
 section.courses .item .down-content {
