@@ -36,7 +36,6 @@ p {
     line-height: 22px;
 }
 
-
 .section-heading {
     text-align: center;
     margin-bottom: 70px;
@@ -172,6 +171,9 @@ a.menu-link { display: none; }
     width: 100%;
     top: 0;
 }
+.main-header .img {
+  
+}
 
 .main-header .logo {
     float: left;
@@ -193,6 +195,7 @@ a.menu-link { display: none; }
 .main-menu {
     float: right;
     padding-right: 60px;
+    opacity: 1;
 }
 
 .main-menu li {
@@ -503,9 +506,9 @@ section.why-us {
 #tabs ul {
   margin: 0;
   padding: 0;
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
   -webkit-column-gap: 0;
   -moz-column-gap: 0;
   column-gap: 0;
