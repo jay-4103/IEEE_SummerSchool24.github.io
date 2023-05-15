@@ -461,7 +461,30 @@ section.features .col-4 {
 .content-hide p {
   color: #fff;
 }
+#register {
+  background-image: url(../img/reg.png);
+  background-size: cover;
+  position: relative;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 
+.registration-card {
+  border: 1px solid black;
+  border-radius: 1%;
+  padding: 30px;
+  background-color: white;
+  margin: 25px;
+  margin-bottom: 40px;
+}
+
+.registration-card hr {
+  border-top: 2px dashed #24b8ff;
+}
+
+.registeration-title {
+  color: #24b8ff;
+}
 @media screen and (max-width: 767px) {
 
   .features-content {
