@@ -149,9 +149,9 @@ https://templatemo.com/tm-557-grad-school
                             <div class="col-md-8">
                                 <center><h4>Advanced Web Development</h4></center>
                                 <ol class="list-group" style="list-style-type: square;">
-                                    <li class="list-group-item" style="background-color: rgb(0, 2, 31); border-color: rgb(138, 200, 255); color: white;">JavaScript Frameworks</li>
+                                    <li class="list-group-item" style="background-color: rgb(0, 2, 31); border-color: rgb(138, 200, 255); color: white;">JavaScript Frameworks - ReactJS</li>
                                     <li class="list-group-item" style="background-color: black; border-color: rgb(138, 200, 255); color: white;">Building a Web Application</li>
-                                    <li class="list-group-item" style="background-color: rgb(0, 2, 31); border-color: rgb(138, 200, 255); color: white;">API Integration</li>
+                                    <li class="list-group-item" style="background-color: rgb(0, 2, 31); border-color: rgb(138, 200, 255); color: white;">API Integration - Firebase</li>
                                     <li class="list-group-item" style="background-color: black; border-color: rgb(138, 200, 255); color: white;">Deployment Strategies</li>
                                 </ol>
                             </div>
@@ -163,7 +163,6 @@ https://templatemo.com/tm-557-grad-school
         </div>
     </div>
 </section>
-
 
 
 
@@ -218,7 +217,10 @@ https://templatemo.com/tm-557-grad-school
             <h5 style="color: white;">Non-IEEE Member - &#8377; 300</h5>
             <br>
             <div class="main-button">
-              <div class="scroll-to-section"><a href="#section8">Register</a></div>
+              <div class="scroll-to-section">
+                <a href="https://docs.google.com/forms/u/2/d/e/1FAIpQLSe8kj6QHnoHE8MQ6XeJZ5FkV3SNP5PldWeOi1W-1M_vohDbXw/viewform" id="registerButton">Register</a>
+              </div>
+            </div>
           </div>
           <br><br>
           </div>
@@ -482,6 +484,10 @@ https://templatemo.com/tm-557-grad-school
 
         $(window).scroll(function () {
           checkSection();
+        });
+        document.getElementById('registerButton').addEventListener('click', function(event) {
+          event.preventDefault(); // Prevent the default link behavior
+          window.open('https://docs.google.com/forms/u/2/d/e/1FAIpQLSe8kj6QHnoHE8MQ6XeJZ5FkV3SNP5PldWeOi1W-1M_vohDbXw/viewform', '_blank');
         });
     </script>
 </body>
